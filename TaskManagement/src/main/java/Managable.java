@@ -1,5 +1,4 @@
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 public interface Managable {
 
@@ -8,6 +7,11 @@ public interface Managable {
     LocalDate getDueDate();
     String getStatus();
     void setStatus(Status status);
+
+
+    public static boolean isOverdue(Managable managable){
+        return LocalDate.now().isAfter(managable.getDueDate());
+    }
 
 
 

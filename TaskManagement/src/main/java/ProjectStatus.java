@@ -1,5 +1,5 @@
-public class ProjectStatus {
-    enum Enum {
+public enum ProjectStatus implements Status {
+
         UPCOMING,
         PENDING,
         OVERDUE,
@@ -7,5 +7,5 @@ public class ProjectStatus {
         ACTIVE,
         CANCELED,
         DONE;
-    }
+
 }

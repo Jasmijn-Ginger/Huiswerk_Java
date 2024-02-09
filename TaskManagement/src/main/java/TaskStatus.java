@@ -1,11 +1,9 @@
-public class TaskStatus {
+public enum TaskStatus implements Status {
 
-
-    enum Enum {
         OPEN,
         IN_PROGRESS,
         TESTING,
         DONE;
-    }
+
 
 }

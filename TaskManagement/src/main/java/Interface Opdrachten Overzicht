@@ -7,14 +7,19 @@ Onduidelijk:
     titel en status opvragen, hoe? Door managable? Dat kan pas als vorig punt is opgelost.
 
 6.  waar komt project ineens vandaan? Nieuwe class aanmaken? Moet die dan Project of ProjectStatus heten?
+enum van maken
 
 7.  Pakt <Task> niet
     moet status UPCOMING hebben. zelfde  issue als 4.
 
+8.5 Implementeer wijst erop dat we "assignToUser" al hebben, maar die hebben we toch nog niet? Hoe doen?
+assign uit 2
+
+9.  Een methode in een interface kan/mag toch geen body hebben? Hoe moet ik dan dueDate checken?
 
 
 
 
 
 Nu bij opdracht:
-7
+9
